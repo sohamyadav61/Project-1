@@ -7,5 +7,8 @@ final class CodeTest extends TestCase
     {
         $this->assertDirectoryExists('data');
     }
+    public function testCSVFileExists() {
+        $this->assertFileExists('data/data.csv');
+    }
 
 }
