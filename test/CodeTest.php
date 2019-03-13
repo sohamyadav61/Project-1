@@ -10,5 +10,8 @@ final class CodeTest extends TestCase
     public function testCSVFileExists() {
         $this->assertFileExists('data/data.csv');
     }
+    public function testSrcDirectory(){
+        $this->assertDirectoryExists('src');
+    }
 
 }
