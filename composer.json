@@ -1,0 +1,12 @@
+{
+    "name": "soham/project-1",
+    "description": "first mini project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "soham",
+            "email": "sy357@njit.edu"
+        }
+    ],
+    "require": {}
+}
