@@ -12,5 +12,16 @@ final class CodeTest extends TestCase
     public function testTestDirectory(){
         $this->assertDirectoryExists('test');
     }
-
+    public function testextractCSVFile(){
+        echo file_exists('extractCSV');
+    }
+    public function testHtmlFile(){
+        echo file_exists('Html');
+    }
+    public function testMainFile(){
+        echo file_exists('Main');
+    }
+    public function testRecordFile(){
+        echo file_exists('Record');
+    }
 }
