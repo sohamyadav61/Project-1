@@ -24,4 +24,10 @@ final class CodeTest extends TestCase
     public function testRecordFile(){
         echo file_exists('Record');
     }
+    public function testindexFile(){
+        echo file_exists('index');
+    }
+    public function testrecordFactorFile(){
+        echo file_exists('recordFactor');
+    }
 }
