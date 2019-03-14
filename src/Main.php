@@ -1,10 +1,10 @@
 <?php
 
-main::start("data.csv");
+main::start("data/data.csv");
 class main  {
     static public function start($filename) {
         $records = csv::getRecords($filename);
-        $table = html::generateTable($records);
+        $table = html::createTable($records);
     }
 }
 }
